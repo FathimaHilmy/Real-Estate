@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.signup{
+  color: darkslategrey;
+  position: absolute;
+  left: 46%
+}
+.email{
+  height:45px;
+  width:400px;
+  position:absolute;
+  top: 330px;
+  left:39%
+}
+
+.password{
+  height:45px;
+  width:400px;
+  position:absolute;
+  top: 420px;
+  left:39%
+}
+
+.submit{
+  height:54px;
+  width:407px;
+  position:absolute;
+  top: 512px;
+  left:39%
+}
+
+.statement{
+  position: absolute;
+  top: 67%;
+  left: 42%;
+}
