@@ -1,5 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SignIn, LogIn } from "./logpage.jsx";
+import Main from "./mainpage.jsx";
+import Create from "./create.jsx";
+import Update from "./update.jsx";
 import "./App.css";
 
 const App = () => {
@@ -8,6 +11,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<SignIn />} />
         <Route path="/login" element={<LogIn />} />
+        <Route path="/main" element={<Main />} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/update/:id" element={<Update />} />
       </Routes>
     </BrowserRouter>
   );

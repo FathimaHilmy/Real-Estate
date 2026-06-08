@@ -11,11 +11,16 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
+app.get("/test", (req, res) => {
+  res.send("server works");
+});
 
 connectdb();
 
 app.listen(process.env.PORT || 3000, () => {
   console.log(`running on ${process.env.PORT}`);
 });
+
+
 
 app.use("/api", router);

@@ -4,38 +4,307 @@
   padding: 2rem;
   text-align: center;
 }
-
+body{
+  background-color: rgb(242, 246, 250);
+}
+.cont{
+    width: 450px;
+    height: 470px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+}
 .signup{
-  color: darkslategrey;
+  color: rgb(0, 0, 0);
   position: absolute;
-  left: 46%
+  top: 25%;
+  left: 46%;
 }
 .email{
   height:45px;
   width:400px;
   position:absolute;
-  top: 330px;
-  left:39%
+  top: 350px;
+  left:39%;
+  border-radius: 10px;
 }
 
 .password{
   height:45px;
   width:400px;
   position:absolute;
-  top: 420px;
-  left:39%
+  top: 445px;
+  left:39%;
+  border-radius: 10px;
 }
 
 .submit{
   height:54px;
   width:407px;
   position:absolute;
-  top: 512px;
-  left:39%
+  top: 530px;
+  left:39%;
+  border-radius: 10px;
+  background-color: #5197e7;
 }
 
 .statement{
   position: absolute;
   top: 67%;
   left: 42%;
+}
+
+.log{
+  background-color: #5197e7;
+  position: absolute;
+  left: 110%;
+  top: -34%
+}
+
+.container{
+  height: 127px;
+  width: 1800px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5%;
+  left:3%;
+  
+}
+
+.welcome{
+position: absolute;
+font-size:xx-large;
+left:2%;
+font-weight: 300;
+}
+
+.logout{
+  position: absolute;
+  right: -45%;
+  top:33%
+}
+
+.container2{
+  height: 100px;
+  width: 1800px;
+   background-color: rgb(242, 246, 250);
+  position: absolute;
+  top: 22%;
+  left:3%;
+}
+
+.create{
+   height: 65px;
+  width: 300px;
+  font-size: larger;
+  background-color:#5197e7;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 0%
+}
+
+.trans{
+  height: 50px;
+  width: 180px;
+  position: absolute;
+  left:0%;
+font-size: large;
+border-radius: 12px;
+background-color: rgb(242, 246, 250);
+}
+.prop{
+  height: 50px;
+  width: 150px;
+  position: absolute;
+  left:11%;
+font-size: large;
+border-radius: 12px;
+background-color: rgb(242, 246, 250);
+}
+.price{
+  height: 50px;
+  width: 100px;
+  position: absolute;
+  left:20%;
+font-size: large;
+border-radius: 12px;
+background-color: rgb(242, 246, 250);
+}
+
+.Big{
+   height: 1000px;
+  width: 1800px;
+   background-color: rgb(242, 246, 250);
+  position: absolute;
+  top: 32%;
+  left:3%;
+}
+
+.Box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+   background-color: rgb(242, 246, 250);
+}
+
+.card{
+  width:404px;
+  height:140px;
+  background:white;
+  border-radius:10px;
+  padding:16px;
+
+  display:flex;
+  flex-direction:column;
+  gap:20px;   /* THIS creates space between price, name, type */
+}
+
+.toprow{
+  display:flex;
+  justify-content:space-between;
+  align-items:normal;
+  row-gap: 100px;
+}
+
+.pric{
+  display:flex;
+  align-items:center;
+  font-size:18px;
+  font-weight:600;
+}
+
+.proptype{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  color:gray;
+}
+
+.propname{
+  display: flex;
+  align-items: start;
+}
+.transtype{
+  background-color: #C8F7D1;
+  height: 35px;
+  width: 50px;
+   border-radius:10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3px;
+}
+.transt{
+  background-color: #f3bcaf;
+  height: 35px;
+  width: 50px;
+   border-radius:10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 3px;
+}
+
+.ddown{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 33px;
+    margin-right: 33px;
+    padding: 0;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    outline: 0;
+}
+
+.MuiMenuItem-root.edit{
+  color:#5197e7;
+}
+.MuiMenuItem-root.delete{
+  color: red;
+}
+
+.left{
+  display: flex;
+  row-gap: 2px;
+}
+
+.down{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.butto{
+  background-color: rgb(255, 255, 255);
+}
+
+.subm{
+  height:45px;
+  width:470px;
+  background-color: #5197e7;
+}
+
+.continer2{
+  height: 500px;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius:10px;
+  border: 1px;
+}
+
+.tex{
+  font-size:  1.5em;
+display: flex;
+align-items: flex-start;
+position: absolute;
+top:23%;
+left:38%;
+}
+
+.property{
+  height:55px;
+  width: 450px;
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  border-radius:10px;
+}
+
+.transactiontype{
+  height:60px;
+  width: 455px;
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  border-radius:10px;
+}
+
+.propertytype{
+   height:60px;
+  width: 455px;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  border-radius:10px;
+}
+
+.Price{
+  height:55px;
+  width: 450px;
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  border-radius:10px;
+}
+
+.crea{
+   height:55px;
+  width: 450px;
+  position: absolute;
+  top: 69%;
+  left: 38%;
+  border-radius:10px;
+  background-color:#5197e7;
 }

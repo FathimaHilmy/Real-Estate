@@ -68,6 +68,7 @@ const SignIn = () => {
           <p className="statement">
             Already have an account?
             <button
+              className="log"
               onClick={() => {
                 navigate("/login");
               }}
@@ -99,7 +100,7 @@ const LogIn = () => {
         body: JSON.stringify(loginData),
       });
       const data = await res.json();
-      console.log(data);
+      console.log("this is the data", data);
       if (!res.ok) {
         alert("login failed");
       } else {
